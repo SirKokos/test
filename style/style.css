@@ -133,7 +133,11 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
         display: none;
     }
 }
-
+@media (max-width: 426px) {
+    .header__logo-green {
+        display: none;
+    }
+}
 .button-green{
     transform: skew(0, 5deg);
     background: #00D301;
